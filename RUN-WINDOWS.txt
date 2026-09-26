@@ -1,0 +1,9 @@
+SKILLRAPT - WINDOWS RUN GUIDE
+
+1. Open PowerShell in the folder containing package.json.
+2. npm install
+3. npm run dev
+4. Open the URL shown by Next.js (usually http://localhost:3000).
+
+The local SQLite database is prisma/dev.db and .env uses DATABASE_URL="file:./dev.db".
+If the server is already using port 3000, Next.js may use 3001/3002.
